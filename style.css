@@ -25,8 +25,8 @@
     }
 
     #Header {
-        width:96%;
-        height:70%;
+        width:96vw;
+        height:70vh;
         color: white;
         background-color:#eb8f34;
         text-align: center;
@@ -40,8 +40,8 @@
     }
    
     #Introduction {
-        width:96%;
-        height:130%;
+        width:96vw;
+        height:130vh;
         background-color:white;
         background-image: url("");
         text-align: center;
