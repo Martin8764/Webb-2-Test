@@ -1,0 +1,131 @@
+*{
+    padding:0;
+    margin:0;
+
+        }
+    /* Sidans bakgrund */
+    /*Test*/
+    body{
+    background:url(https://pbs.twimg.com/media/ExKeKGBW8AQvwlh.jpg);
+    background-size:cover;    
+    background-repeat:no-repeat;
+    background-position: center;
+}
+/* Start sidans rubrik och knapp för att öppna nav bar*/
+    #div1 {
+        width:85%;
+        height:20%;
+        background-color:#ffffff;
+        opacity:85%;
+        margin-top:2%;
+        margin-bottom:3%;
+        margin-left:6%;
+        margin-right:4%;
+        font-size: 250%;
+        text-align: center;
+
+    }
+    /* sidans navigeringsmeny */
+    .sidenav { 
+        height: 136%;
+        width: 0%; /* skulle behövas ändra med javaskrift istället */
+        z-index: 1;
+        top: 0;
+        left: 0;
+        background-color: #ffffff; /* Vit färg*/
+        overflow-x: hidden; /* detta tar bort lodrät scroll*/
+        padding-top: 20px;
+        float:left; 
+        opacity:85%;
+        transition: 0.5s;
+        
+        margin-bottom:1%;
+        margin-left:6%;
+        margin-right:2%;
+
+        
+    }
+    /*Menylänkar för navigationsmenyn*/
+    .sidenav a {
+        padding: 6px 8px 6px 16px;
+        text-decoration: none;
+        font-size: 30px;
+        color: #0001ff;
+        display: block;
+        transition: 0.3s;
+        
+    }
+    /* Detta ändra färg när muspekaren ligger över*/
+    .sidenav a:hover {
+        color: #111; 
+    }
+    /*Placerar "Open navigation bar" i div1 */
+    .sidenav .openbtn {  
+        position: absolute;
+        top: 15%; 
+        left: 3%;
+        font-size: 36px;
+        margin-left: 50px;
+    }
+    /* Knapp för ett kryss i nav bar. */
+    span
+    {
+    text-align: right;
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 30px;
+    color: #0001ff;
+    display: block;
+    transition: 0.3s;
+    
+    
+    }
+    /* använd detta om du vill trycka sidinnehållet till höger när du öppnar sidnavigeringen */
+    #main { 
+        transition: margin-left .5s; 
+        padding: 0px 10px;
+    
+    }
+    /* På mindre skärmar, där höjden är mindre än 450px, ändra stil på sidan */
+    @media screen and (max-height: 450px) {
+        .sidenav {padding-top: 15px;}
+        .sidenav a {font-size: 18px;}
+    }
+    /* bild på startsidan */
+    #Header {
+        width:56%;
+        height:35%;
+        background-color:#ffffff;
+        text-align: center;
+        float:left;
+        background-image: url("https://ak.picdn.net/shutterstock/videos/8959657/thumb/1.jpg");
+        background-size: 100% 101%;
+   
+        background-repeat: no-repeat;
+        
+        margin-bottom:2%;
+        margin-left:2%;
+        margin-right:4%;
+    }
+    /* div för introduction text*/
+    #Introduction {
+        width:56%;
+        height:100%;
+        background-color:#ffffff;
+        text-align: center;
+        float:left;
+        opacity:85%;
+        margin-bottom:1%;
+        margin-left:2%;
+        margin-right:4%;
+        
+    }
+   
+    /* Text för introduction*/
+    p
+    {
+        margin-left: 125px;
+        margin-right: 125px;
+        font-size:125%;
+    }
+   
