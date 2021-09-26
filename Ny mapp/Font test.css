@@ -1,0 +1,12 @@
+@font-face {
+    font-family:"TestFont";
+    src:url(JMH\ Typewriter.ttf);
+
+}
+legend{
+    font-family:TestFont;
+}
+#div1{
+    list-style-type:upper-roman;
+    list-style-image:url(bild.png);
+}
